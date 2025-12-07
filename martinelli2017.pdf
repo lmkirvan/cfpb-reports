@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+
+<html  dir="ltr" lang="pt-br" xml:lang="pt-br">
+<head>
+    <title>ACH0636-2023 | e-Disciplinas</title>
+    <link rel="shortcut icon" href="https://edisciplinas.usp.br/theme/image.php/edis/theme/1739264033/favicon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, ACH0636-2023 | e-Disciplinas" />
+<link rel="stylesheet" type="text/css" href="https://edisciplinas.usp.br/theme/yui_combo.php?3.17.2/cssreset/cssreset-min.css&amp;3.17.2/cssfonts/cssfonts-min.css&amp;3.17.2/cssgrids/cssgrids-min.css&amp;3.17.2/cssbase/cssbase-min.css" /><link rel="stylesheet" type="text/css" href="https://edisciplinas.usp.br/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://edisciplinas.usp.br/theme/styles.php/edis/1739264033_1735928610/all" />
+<link rel="stylesheet" type="text/css" href="https://edisciplinas.usp.br/course/format/onetopic/styles.php" />
+<script>
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/edisciplinas.usp.br","homeurl":{},"sesskey":"0argLjBEno","sessiontimeout":"28800","sessiontimeoutwarning":"1200","themerev":"1739264033","slasharguments":1,"theme":"edis","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1739264033","admin":"admin","svgicons":true,"usertimezone":"Am\u00e9rica\/S\u00e3o_Paulo","language":"pt_br","courseId":114779,"courseContextId":7969686,"contextid":7969686,"contextInstanceId":114779,"langrev":1739264033,"templaterev":"1739264033"};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/edisciplinas.usp.br\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/edisciplinas.usp.br\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/edisciplinas.usp.br\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/edisciplinas.usp.br\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/edisciplinas.usp.br\/theme\/yui_combo.php?m\/1739264033\/","combine":true,"comboBase":"https:\/\/edisciplinas.usp.br\/theme\/yui_combo.php?","ext":false,"root":"m\/1739264033\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_language-form":{"requires":["base","node","event","node-event-simulate","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_sectioncompleted-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_xp-form":{"requires":["base","node","event","handlebars","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_attendance-groupfilter":{"requires":["base","node"]},"moodle-mod_checklist-linkselect":{"requires":["node","event-valuechange"]},"moodle-mod_dialogue-clickredirector":{"requires":["base","node","json-parse","clickredirector","clickredirector-filters","clickredirector-highlighters","event","event-key"]},"moodle-mod_offlinequiz-util":{"requires":["node"],"use":["moodle-mod_offlinequiz-util-base"],"submodules":{"moodle-mod_offlinequiz-util-base":{},"moodle-mod_offlinequiz-util-slot":{"requires":["node","moodle-mod_offlinequiz-util-base"]},"moodle-mod_offlinequiz-util-page":{"requires":["node","moodle-mod_offlinequiz-util-base"]}}},"moodle-mod_offlinequiz-randomquestion":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_offlinequiz-modform":{"requires":["base","node","event"]},"moodle-mod_offlinequiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_offlinequiz-offlinequizbase","moodle-mod_offlinequiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_offlinequiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_offlinequiz-offlinequizbase":{"requires":["base","node"]},"moodle-mod_offlinequiz-offlinequizquestionbank":{"requires":["base","event","node","io","io-form","yui-later","moodle-question-qbankmanager","moodle-qbank_editquestion-chooser","moodle-question-searchform","moodle-core-notification"]},"moodle-mod_offlinequiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_offlinequiz-offlinequizbase","moodle-mod_offlinequiz-util-base","moodle-mod_offlinequiz-util-page","moodle-mod_offlinequiz-util-slot","moodle-course-util"]},"moodle-mod_offlinequiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_offlinequiz-util","querystring-parse"]},"moodle-mod_offlinequiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_oublog-tagselector":{"requires":["base","node","autocomplete","autocomplete-filters","autocomplete-highlighters"]},"moodle-mod_oublog-savecheck":{"requires":["base","node","io","panel","moodle-core-notification-alert"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_scheduler-studentlist":{"requires":["base","node","event","io"]},"moodle-mod_scheduler-saveseen":{"requires":["base","node","event"]},"moodle-mod_scheduler-delselected":{"requires":["base","node","event"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-block_workflow-userinfo":{"requires":["base","event","node","io"]},"moodle-block_workflow-comments":{"requires":["base","overlay","moodle-core-formautosubmit","moodle-core-notification"]},"moodle-block_workflow-todolist":{"requires":["base","node","event"]},"moodle-block_xp-rulepicker":{"requires":["base","node","handlebars","moodle-core-notification-dialogue"]},"moodle-block_xp-notification":{"requires":["base","node","handlebars","button-plugin","moodle-core-notification-dialogue"]},"moodle-block_xp-filters":{"requires":["base","node","moodle-core-dragdrop","moodle-core-notification-confirm","moodle-block_xp-rulepicker"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-qbank_editquestion-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_editrolesbycap-capabilityformfield":{"requires":["base","dom","event","cookie"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_chemistry-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_count-button":{"requires":["io","json-parse","moodle-editor_atto-plugin"]},"moodle-atto_embedquestion-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_fullscreen-button":{"requires":["event-resize","moodle-editor_atto-plugin"]},"moodle-atto_generico-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-beautify":{},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_htmlplus-beautify":{},"moodle-atto_htmlplus-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_htmlplus-beautify","moodle-atto_htmlplus-codemirror","event-valuechange"]},"moodle-atto_htmlplus-codemirror":{"requires":["moodle-atto_htmlplus-codemirror-skin"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_imagedragdrop-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_multilang2-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_styles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_wordimport-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/edisciplinas.usp.br\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/edisciplinas.usp.br\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1739264033\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/edisciplinas.usp.br\/lib\/javascript.php\/1739264033\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/edisciplinas.usp.br\/lib\/javascript.php\/1739264033\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdn.jsdelivr.net\/npm\/mathjax@2.7.9\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1188041-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J73RVF6QGR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J73RVF6QGR');
+</script>
+<style>
+.mediaplugin, .mediaplugin video {
+    width: 100%;
+    max-width: 100%;
+    min-width: 480px;
+}
+</style>
+
+<style>
+/* Multitopics Course Format */
+/* Page */
+body.format-multitopic div#page {
+    max-width: 1680px;
+}
+
+/* Course Header */
+body.format-multitopic div#course-header > div#course-header-banner {
+    max-width: none;  /* Needed on LTD server? */
+    background-size: cover;
+}
+body.format-multitopic div#course-header > div#course-header-banner > div#course-header-banner-text {
+    padding: 15px;
+    font-size: xx-large;
+    color: #222;
+    background: rgba(255,255,255,0.15);
+}
+body.format-multitopic div#course-header > p#course-header-banner_attribution {
+    text-align: right;
+    margin: 0;
+    font-size: xx-small;
+}
+
+body.format-multitopic p#course-header-banner_attribution {visibility:hidden !important;}
+
+
+body.format-multitopic .nav .icon, .nav-item .icon, .dropdown-toggle::after {
+    filter: none;
+}
+
+/* Generic Section */
+body.format-multitopic ul.sections li.section {
+    width: 100%;
+    height: auto;
+    position: initial !important; /* stylelint-disable-line declaration-no-important */
+    visibility: inherit;
+    margin-bottom: 1rem;
+}
+body.format-multitopic ul.sections li.section .content {
+    display: block;
+}
+body.format-multitopic ul.sections li.section .content .sectionname {
+    background: #eee;
+    padding: 5px;
+    margin-bottom: 0;
+    font-size: large;
+}
+body.format-multitopic ul.sections li.section:not(.hidden) .content .sectionname {
+    color: #000;
+}
+body.format-multitopic ul.sections li.section:not(.hidden) .content .sectionname a {
+    color: #000;
+}
+body.format-multitopic ul.sections li.section .content .sectionname .section_subtitle {
+    font-size: small;
+}
+body.format-multitopic ul.sections li.section .summary {
+    padding: 1rem;
+}
+body.format-multitopic ul.sections li.section .summary .section_image_holder {
+    text-align: right;
+}
+body.format-multitopic ul.sections li.section .section_image_holder {
+    float: right;
+    width: 240px;
+    font-size: xx-small;
+}
+body.format-multitopic ul.sections li.section .section_image_holder img {
+    width: 240px;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Section Anchor Jump Fix */
+body.format-multitopic ul.sections li.section::before {
+    display: block;
+    content: " ";
+    margin-top: -100px;
+    height: 100px;
+    visibility: hidden;
+    pointer-events: none;
+    position: initial;
+}
+body.format-multitopic ul.sections li.section {
+    background: none;
+}
+
+/* Page Section */
+body.format-multitopic ul.sections li.section.section-page .content .sectionname {
+    background: url("[page_heading_background]");
+    padding: 30px;
+    font-size: x-large;
+}
+
+/* Topic Section */
+body.format-multitopic ul.sections li.section.section-topic {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* Current Section */
+body.format-multitopic ul.sections li.section.current .content h3 {
+    border-left: #06c 2px solid;
+}
+
+/* Timed Topic Section */
+body.format-multitopic ul.sections li.section.section-topic-timed .content .sectionname {
+    background: linear-gradient(to right, #7ce, #7bb);
+}
+body.format-multitopic ul.sections li.section.section-topic-timed:not(.hidden) .content .sectionname {
+    color: #fff;
+}
+body.format-multitopic ul.sections li.section.section-topic-timed:not(.hidden) .content .sectionname a {
+    color: #fff;
+}
+body.format-multitopic ul.sections li.section.section-topic-timed .content .section_availability {
+    background: #eee;
+}
+body.format-multitopic ul.sections li.section.section-topic-timed .content .summary {
+    background: #eee;
+}
+
+/* Hidden Section */
+body.format-multitopic ul.sections li.section.hidden .content .sectionname {
+    color: #868e96;
+}
+body.format-multitopic ul.sections li.section.hidden .content .sectionname a {
+    color: #868e96;
+}
+</style>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MZH4M6B5');</script>
+<!-- End Google Tag Manager -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body  id="page-enrol-index" class="format-topics limitedwidth  path-enrol dir-ltr lang-pt_br yui-skin-sam yui3-skin-sam edisciplinas-usp-br pagelayout-incourse course-114779 context-7969686 category-8331 category-8330 category-8246 drawer-open-left">
+
+<div id="page-wrapper" class="d-print-block">
+
+    <div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Ir para o conteúdo principal</a>
+</div><script src="https://edisciplinas.usp.br/lib/javascript.php/1739264033/lib/polyfills/polyfill.js"></script>
+<script src="https://edisciplinas.usp.br/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script src="https://edisciplinas.usp.br/lib/javascript.php/1739264033/lib/javascript-static.js"></script>
+<script>
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+    <nav class="fixed-top navbar navbar-bootswatch navbar-expand moodle-has-zindex">
+    
+            <div data-region="drawer-toggle" class="d-inline-block mr-3">
+                <button aria-expanded="true" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1 btn-light bg-gray" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav">
+                    <i class="fa fa-bars"></i><span class="sr-only">Painel lateral</span>
+                </button>
+            </div>
+    
+            <a href="https://edisciplinas.usp.br/" class="navbar-brand has-logo" title="e-Disciplinas">
+                <img src="https://edisciplinas.usp.br/pluginfile.php/1/core_admin/logocompact/300x300/1739264033/logo-light%281%29.png" alt="e-Disciplinas">
+            </a>
+    
+            <ul class="navbar-nav d-none d-xl-flex">
+                <!-- custom_menu -->
+                <li class="dropdown nav-item">
+    <a class="dropdown-toggle nav-link" id="drop-down-67ab4ac21cb6f67ab4ac21617a68" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"  aria-controls="drop-down-menu-67ab4ac21cb6f67ab4ac21617a68">
+        Disciplinas »
+    </a>
+    <div class="dropdown-menu" role="menu" id="drop-down-menu-67ab4ac21cb6f67ab4ac21617a68" aria-labelledby="drop-down-67ab4ac21cb6f67ab4ac21617a68">
+                <a class="dropdown-item" role="menuitem" href="https://edisciplinas.usp.br/course/index.php?categoryid=9310"  >2025</a>
+                <a class="dropdown-item" role="menuitem" href="https://edisciplinas.usp.br/course/index.php?categoryid=8757"  >2024</a>
+                <a class="dropdown-item" role="menuitem" href="https://edisciplinas.usp.br/course/index.php?categoryid=8246"  >2023</a>
+                <a class="dropdown-item" role="menuitem" href="https://edisciplinas.usp.br/course/index.php?categoryid=7889"  >2022</a>
+                <a class="dropdown-item" role="menuitem" href="https://edisciplinas.usp.br/course/index.php?categoryid=7346"  >2021</a>
+                <a class="dropdown-item" role="menuitem" href="https://edisciplinas.usp.br/course/index.php?categoryid=6851"  >2020</a>
+                <a class="dropdown-item" role="menuitem" href="https://edisciplinas.usp.br/course/index.php?categoryid=6449"  >2019</a>
+                <a class="dropdown-item" role="menuitem" href="https://edisciplinas.usp.br/course/index.php?categoryid=6025"  >2018</a>
+                <a class="dropdown-item" role="menuitem" href="https://edisciplinas.usp.br/course/index.php?categoryid=6066"  >2017</a>
+                <a class="dropdown-item" role="menuitem" href="https://edisciplinas.usp.br/course/index.php?categoryid=3139"  >2016</a>
+                <a class="dropdown-item" role="menuitem" href="https://edisciplinas.usp.br/course/index.php?categoryid=1433"  >2015</a>
+                <a class="dropdown-item" role="menuitem" href="https://edisciplinas.usp.br/course/index.php?categoryid=960"  >2014</a>
+                <a class="dropdown-item" role="menuitem" href="https://edisciplinas.usp.br/course/index.php?categoryid=559"  >2013</a>
+                <a class="dropdown-item" role="menuitem" href="https://edisciplinas.usp.br/course/index.php?categoryid=230"  >2012</a>
+                <a class="dropdown-item" role="menuitem" href="https://edisciplinas.usp.br/course/index.php?categoryid=2930"  >AACCs/FFLCH</a>
+                <a class="dropdown-item" role="menuitem" href="https://edisciplinas.usp.br/course/index.php?categoryid=2520"  >Pró-Reitoria de Pós-Graduação</a>
+                <a class="dropdown-item" role="menuitem" href="https://edisciplinas.usp.br/course/index.php?categoryid=1"  >Outros</a>
+    </div>
+</li><li class="dropdown nav-item">
+    <a class="dropdown-toggle nav-link" id="drop-down-67ab4ac21cd0d67ab4ac21617a69" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"  aria-controls="drop-down-menu-67ab4ac21cd0d67ab4ac21617a69">
+        Suporte »
+    </a>
+    <div class="dropdown-menu" role="menu" id="drop-down-menu-67ab4ac21cd0d67ab4ac21617a69" aria-labelledby="drop-down-67ab4ac21cd0d67ab4ac21617a69">
+                <a class="dropdown-item" role="menuitem" href="https://docs.atp.usp.br/artigos/categoria/acesso/" target="_blank"  >Acesso</a>
+                <a class="dropdown-item" role="menuitem" href="https://docs.atp.usp.br/artigos/docentes/acesso-a-mais-funcionalidades/" target="_blank"  >Perfis</a>
+                <a class="dropdown-item" role="menuitem" href="https://docs.atp.usp.br/artigos/acesso/visitantes/ouvintes-e-visitantes/" target="_blank"  >Ouvintes</a>
+                <a class="dropdown-item" role="menuitem" href="https://docs.atp.usp.br/artigos/categoria/docentes/" target="_blank"  >Docentes</a>
+                <a class="dropdown-item" role="menuitem" href="https://docs.atp.usp.br/artigos/criacao-de-novos-ambientes-de-apoio-as-disciplinas/" target="_blank"  >Criação de Disciplinas da USP</a>
+                <a class="dropdown-item" role="menuitem" href="https://docs.atp.usp.br/" target="_blank"  >Documentação</a>
+                <a class="dropdown-item" role="menuitem" href="https://edisciplinas.usp.br/mod/page/view.php?id=12"  >HelpDesk e Contato</a>
+                <a class="dropdown-item" role="menuitem" href="https://edisciplinas.usp.br/mod/page/view.php?id=6"  >Guia de uso</a>
+                <a class="dropdown-item" role="menuitem" href="https://edisciplinas.usp.br/mod/page/view.php?id=5"  >Sobre</a>
+    </div>
+</li><li class="dropdown nav-item">
+    <a class="dropdown-toggle nav-link" id="drop-down-67ab4ac21ce0b67ab4ac21617a70" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" title="Idioma" aria-controls="drop-down-menu-67ab4ac21ce0b67ab4ac21617a70">
+        Português - Brasil ‎(pt_br)‎
+    </a>
+    <div class="dropdown-menu" role="menu" id="drop-down-menu-67ab4ac21ce0b67ab4ac21617a70" aria-labelledby="drop-down-67ab4ac21ce0b67ab4ac21617a70">
+                <a class="dropdown-item" role="menuitem" href="https://edisciplinas.usp.br/enrol/index.php?id=114779&amp;lang=de"  lang="de" >Deutsch ‎(de)‎</a>
+                <a class="dropdown-item" role="menuitem" href="https://edisciplinas.usp.br/enrol/index.php?id=114779&amp;lang=en"  lang="en" >English ‎(en)‎</a>
+                <a class="dropdown-item" role="menuitem" href="https://edisciplinas.usp.br/enrol/index.php?id=114779&amp;lang=es"  lang="es" >Español - Internacional ‎(es)‎</a>
+                <a class="dropdown-item" role="menuitem" href="https://edisciplinas.usp.br/enrol/index.php?id=114779&amp;lang=fr"  lang="fr" >Français ‎(fr)‎</a>
+                <a class="dropdown-item" role="menuitem" href="https://edisciplinas.usp.br/enrol/index.php?id=114779&amp;lang=it"  lang="it" >Italiano ‎(it)‎</a>
+                <a class="dropdown-item" role="menuitem" href="https://edisciplinas.usp.br/enrol/index.php?id=114779&amp;lang=pt_br"  >Português - Brasil ‎(pt_br)‎</a>
+    </div>
+</li>
+                <!-- page_heading_menu -->
+                
+            </ul>
+            <ul class="nav navbar-nav ml-auto">
+                <li class="d-none d-lg-block">
+                    <div id="searchinput-navbar-67ab4ac21cf4067ab4ac21617a71" class="simplesearchform">
+    <div class="collapse" id="searchform-navbar">
+        <form autocomplete="off" action="https://edisciplinas.usp.br/search/index.php" method="get" accept-charset="utf-8" class="mform form-inline searchform-navbar">
+                <input type="hidden" name="context" value="7969686">
+            <div class="input-group">
+                <label for="searchinput-67ab4ac21cf4067ab4ac21617a71">
+                    <span class="sr-only">Buscar</span>
+                </label>
+                    <input type="text"
+                       id="searchinput-67ab4ac21cf4067ab4ac21617a71"
+                       class="form-control withclear"
+                       placeholder="Buscar"
+                       aria-label="Buscar"
+                       name="q"
+                       data-region="input"
+                       autocomplete="off"
+                    >
+                    <a class="btn btn-close"
+                        data-action="closesearch"
+                        data-toggle="collapse"
+                        href="#searchform-navbar"
+                        role="button"
+                    >
+                        <i class="icon fa fa-times fa-fw " aria-hidden="true"  ></i>
+                        <span class="sr-only">Fechar</span>
+                    </a>
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-submit" data-action="submit">
+                        <i class="icon fa fa-search fa-fw " aria-hidden="true"  ></i>
+                        <span class="sr-only">Buscar</span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <a
+        class="btn btn-open rounded-0 nav-link"
+        data-toggle="collapse"
+        data-action="opensearch"
+        href="#searchform-navbar"
+        role="button"
+        aria-expanded="false"
+        aria-controls="searchform-navbar"
+        title="Alternar entrada de pesquisa"
+    >
+        <i class="icon fa fa-search fa-fw " aria-hidden="true"  ></i>
+        <span class="sr-only">Alternar entrada de pesquisa</span>
+    </a>
+</div>
+                </li>
+                <!-- navbar_plugin_output -->
+                <li class="nav-item" style="display: inline-flex;">
+                    
+                </li>
+                <!-- user_menu -->
+                <li class="nav-item d-flex align-items-center">
+                    <a class="loggedoutacessar" href="https://edisciplinas.usp.br/auth/shibboleth" class="btn btn-custom btn-sm"><i class="fa fa-sign-in"></i> Acessar</a>
+                </li>
+            </ul>
+            <!-- search_box -->
+    </nav>
+    
+
+    <div id="page" class="container-fluid d-print-block">
+        <header id="page-header" class="row">
+    <div class="col-12 pt-3 pb-3">
+        <div class="card ">
+            <div class="card-body ">
+                <div class="d-flex">
+                    <div class="mr-auto">
+                    <div class="page-context-header"><div class="page-header-headings"><h1>ACH0636 - Realidade virtual, e-sports e inteligência artificial (2023)</h1></div></div>
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap">
+                    <div id="page-navbar">
+                        <nav aria-label="Barra de navegação">
+    <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="https://edisciplinas.usp.br/"  >Início</a>
+                </li>
+        
+                <li class="breadcrumb-item">
+                    <a href="https://edisciplinas.usp.br/course/index.php"  >Ambientes</a>
+                </li>
+        
+                <li class="breadcrumb-item">
+                    <a href="https://edisciplinas.usp.br/course/index.php?categoryid=8246"  >2023</a>
+                </li>
+        
+                <li class="breadcrumb-item">
+                    <a href="https://edisciplinas.usp.br/course/index.php?categoryid=8330"  >EACH   </a>
+                </li>
+        
+                <li class="breadcrumb-item">
+                    <a href="https://edisciplinas.usp.br/course/index.php?categoryid=8331"  >ACH</a>
+                </li>
+        
+                <li class="breadcrumb-item">
+                    <a href="https://edisciplinas.usp.br/course/view.php?id=114779"  title="ACH0636 - Realidade virtual, e-sports e inteligência artificial (2023)">ACH0636-2023</a>
+                </li>
+        
+                <li class="breadcrumb-item"><span>Opções de inscrição</span></li>
+        </ol>
+</nav>
+                    </div>
+                    <div class="ml-auto d-flex">
+                        
+                    </div>
+                    <div id="course-header">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+        <div id="page-content" class="row  blocks-pre   d-print-block">
+            <div id="region-main-box" class="region-main">
+                <section id="region-main" class="region-main-content" aria-label="Conteúdo">
+		    <span class="notifications" id="user-notifications"></span>
+                    <div role="main"><span id="maincontent"></span><h2>Opções de inscrição</h2><div class="box py-3 generalbox info"><div class="coursebox clearfix" data-courseid="114779" data-type="1"><div class="info"><h3 class="coursename"><a class="aalink" href="https://edisciplinas.usp.br/course/view.php?id=114779">ACH0636 - Realidade virtual, e-sports e inteligência artificial (2023)</a></h3><div class="moreinfo"></div></div><div class="content"><div class="d-flex"><div class="flex-grow-1"><div class="summary"><div class="no-overflow">a)	Compreender, descrever e aplicar as características dos ambiente virtuais imersivos e não imersivos para a prática e treinamento do movimento humano, atividade física e exercício
+b)	Compreender e descrever as características dos e-sports e games
+c)	Preparar o discente para usar os e-sports e games em programas de atividade física
+d)	Preparar o discente para construir programas de exercício e treinamento em ambientes virtuais, imersivos ou não, e nos e-sports
+e)	Discutir os principais conceitos da inteligência artificial, o seu desevolvimento e aplicações na Educação Física, Esportes e Saúde.</div></div><ul class="teachers"><li><span class="font-weight-bold">Docente: </span><a href="https://edisciplinas.usp.br/user/view.php?id=170263&amp;course=1">Luis Mochizuki</a></li></ul></div></div></div></div></div><div id="notice" class="box py-3 generalbox">Visitantes não podem acessar este curso. Por favor faça login.</div><div class="continuebutton">
+    <form method="get" action="https://edisciplinas.usp.br/login/index.php" >
+        <button type="submit" class="btn btn-primary"
+            id="single_button67ab4ac21617a72"
+            
+            
+            >Continuar</button>
+    </form>
+</div></div>
+                    
+                    
+                </section>
+            </div>
+            <div id="nav-drawer" data-region="drawer" class="d-print-none moodle-has-zindex " aria-hidden="false" tabindex="-1">
+                <div class="columnleft blockcolumn  has-blocks ">
+                    <section data-region="blocks-column" class="hidden-print" aria-label="Blocos">
+                        
+    <div class="sidebar-shortcuts" id="sidebar-shortcuts">
+        <div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
+            <a class="btn btn-purple" href="https://edisciplinas.usp.br/course/view.php?id=114779" title="Voltar para a página da disciplina">
+                <i class="fa fa-home"></i>
+            </a>
+            <a class="btn btn-info" href="https://edisciplinas.usp.br/mod/forum/view.php?f=242448" title="Avisos Gerais da Disciplina">
+                <i class="fa fa-envelope"></i>
+            </a>
+            <a class="btn btn-warning" href="https://edisciplinas.usp.br/user/index.php?id=114779" title="Participantes">
+                <i class="fa fa-group"></i>
+            </a>
+            <a class="btn btn-danger" href="https://edisciplinas.usp.br/course/recent.php?id=114779" title="Atividades recentes">
+                <i class="fa fa-folder"></i>
+            </a>
+            <a class="btn btn-success" href="https://edisciplinas.usp.br/grade/report/index.php?id=114779" title="Quadro de Notas">
+                <i class="fa fa-table"></i>
+            </a>
+            <a class="btn btn-outline-warning" href="#" title="Ambiente fechado para visitantes"><i class="fa fa-lock"></i></a>
+
+        </div>
+    </div>
+                        <aside id="block-region-side-pre" class="block-region" data-blockregion="side-pre" data-droptarget="1"><a href="#sb-2" class="sr-only sr-only-focusable">Pular Navegação</a>
+
+<section id="inst4"
+         class=" block_navigation block  card mb-3"
+         role="navigation"
+         data-block="navigation"
+         aria-labelledby="instance-4-header"
+    >
+
+    <div class="card-body">
+
+        <div class="accordion">
+            <div class="card">
+                <div class="card-header" id="heading-collapse-4">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-block-4" aria-expanded="false" aria-controls="collapse-block-4">
+                            <h5 id="instance-4-header" class="card-title d-inline">Navegação</h5>
+                    </button>
+
+                </div>
+                <div id="collapse-block-4" class="collapse" aria-labelledby="heading-collapse-4">
+                    <div class="card-body">
+                        <div class="card-text content">
+                            <ul class="block_tree list" role="tree" data-ajax-loader="block_navigation/nav_loader"><li class="type_unknown depth_1 contains_branch" role="treeitem" aria-expanded="true" aria-owns="random67ab4ac21617a2_group" data-collapsible="false" aria-labelledby="random67ab4ac21617a1_label_1_1"><p class="tree_item branch navigation_node"><a tabindex="-1" id="random67ab4ac21617a1_label_1_1" href="https://edisciplinas.usp.br/">Início</a></p><ul id="random67ab4ac21617a2_group" role="group"><li class="type_course depth_2 contains_branch" role="treeitem" aria-expanded="false" aria-owns="random67ab4ac21617a4_group" aria-labelledby="random67ab4ac21617a3_label_2_2"><p class="tree_item branch"><span tabindex="-1" id="random67ab4ac21617a3_label_2_2" title="Moodle USP: e-Disciplinas">e-Disciplinas</span></p><ul id="random67ab4ac21617a4_group" role="group" aria-hidden="true"><li class="type_custom depth_3 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a5_label_3_4"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a5_label_3_4" href="https://edisciplinas.usp.br/my/courses.php"><i class="icon fa fa-square fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">Meus Ambientes</span></a></p></li><li class="type_setting depth_3 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a5_label_3_5"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a5_label_3_5" href="https://edisciplinas.usp.br/tag/search.php"><i class="icon fa fa-square fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">Tags</span></a></p></li><li class="type_setting depth_3 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a5_label_3_6"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a5_label_3_6" href="https://edisciplinas.usp.br/search/index.php"><i class="icon fa fa-square fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">Pesquisar</span></a></p></li><li class="type_activity depth_3 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a5_label_3_7"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a5_label_3_7" title="Página" href="https://edisciplinas.usp.br/mod/page/view.php?id=5"><img class="icon navicon" alt="Página" title="Página" src="https://edisciplinas.usp.br/theme/image.php/edis/page/1739264033/monologo" /><span class="item-content-wrap">Sobre</span></a></p></li><li class="type_activity depth_3 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a5_label_3_8"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a5_label_3_8" title="Página" href="https://edisciplinas.usp.br/mod/page/view.php?id=12"><img class="icon navicon" alt="Página" title="Página" src="https://edisciplinas.usp.br/theme/image.php/edis/page/1739264033/monologo" /><span class="item-content-wrap">Help Desk e Contato</span></a></p></li><li class="type_activity depth_3 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a5_label_3_9"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a5_label_3_9" title="Página" href="https://edisciplinas.usp.br/mod/page/view.php?id=6"><img class="icon navicon" alt="Página" title="Página" src="https://edisciplinas.usp.br/theme/image.php/edis/page/1739264033/monologo" /><span class="item-content-wrap">Guia</span></a></p></li></ul></li><li class="type_system depth_2 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a3_label_2_12"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a3_label_2_12" href="https://edisciplinas.usp.br/my/courses.php"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">Meus Ambientes</span></a></p></li><li class="type_system depth_2 contains_branch" role="treeitem" aria-expanded="true" aria-owns="random67ab4ac21617a13_group" aria-labelledby="random67ab4ac21617a3_label_2_13"><p class="tree_item branch canexpand"><a tabindex="-1" id="random67ab4ac21617a3_label_2_13" href="https://edisciplinas.usp.br/course/index.php">Ambientes</a></p><ul id="random67ab4ac21617a13_group" role="group"><li class="type_category depth_3 contains_branch" role="treeitem" aria-expanded="true" aria-owns="random67ab4ac21617a15_group" aria-labelledby="random67ab4ac21617a14_label_3_14"><p class="tree_item branch canexpand"><a tabindex="-1" id="random67ab4ac21617a14_label_3_14" href="https://edisciplinas.usp.br/course/index.php?categoryid=8246">2023</a></p><ul id="random67ab4ac21617a15_group" role="group"><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8571" data-node-key="8571" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_15"><p class="tree_item branch" id="expandable_branch_10_8571"><a tabindex="-1" id="random67ab4ac21617a16_label_4_15" href="https://edisciplinas.usp.br/course/index.php?categoryid=8571">CENA   </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="true" aria-owns="random67ab4ac21617a17_group" aria-labelledby="random67ab4ac21617a16_label_4_16"><p class="tree_item branch canexpand"><a tabindex="-1" id="random67ab4ac21617a16_label_4_16" href="https://edisciplinas.usp.br/course/index.php?categoryid=8330">EACH   </a></p><ul id="random67ab4ac21617a17_group" role="group"><li class="type_category depth_5 contains_branch" role="treeitem" aria-expanded="true" aria-owns="random67ab4ac21617a19_group" aria-labelledby="random67ab4ac21617a18_label_5_17"><p class="tree_item branch"><a tabindex="-1" id="random67ab4ac21617a18_label_5_17" href="https://edisciplinas.usp.br/course/index.php?categoryid=8331">ACH</a></p><ul id="random67ab4ac21617a19_group" role="group"><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_18"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_18" title="ACH5514 - Fenômenos dos Transportes (2023)" href="https://edisciplinas.usp.br/course/view.php?id=115476"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH5514-202-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_19"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_19" title="ACH4584 - Finanças (2023)" href="https://edisciplinas.usp.br/course/view.php?id=115465"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH4584-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_20"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_20" title="ACH3607 - Estágio Obrigatório (2023)" href="https://edisciplinas.usp.br/course/view.php?id=115425"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH3607-202-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_21"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_21" title="ACH0042 - Resolução de Problemas II (2023)" href="https://edisciplinas.usp.br/course/view.php?id=115385"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH0042-244-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_22"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_22" title="ACH3065 - Comunicação Humana e Sociedade (2023)" href="https://edisciplinas.usp.br/course/view.php?id=115371"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH3065-203-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_23"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_23" title="ACH3595 - Gestão de Recursos Humanos (2023)" href="https://edisciplinas.usp.br/course/view.php?id=115369"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH3595-202-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_24"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_24" title="ACH3595 - Gestão de Recursos Humanos (2023)" href="https://edisciplinas.usp.br/course/view.php?id=115368"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH3595-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_25"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_25" title="ACH1532 - Oficinas de Lazer e Turismo (2023)" href="https://edisciplinas.usp.br/course/view.php?id=115353"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH1532-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_26"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_26" title="ACH3555 - Desenvolvimento, Sustentabilidade, Tecnologia e Políticas Pública (2023)" href="https://edisciplinas.usp.br/course/view.php?id=115347"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH3555-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_27"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_27" title="ACH3066 - Gestão de Atenção em Gerontologia: Gestão de Casos (2023)" href="https://edisciplinas.usp.br/course/view.php?id=115338"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH3066-203-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_28"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_28" title="ACH3075 - Gestão de Pessoas (2023)" href="https://edisciplinas.usp.br/course/view.php?id=115235"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH3075-203-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_29"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_29" title="ACH3024 - Políticas de Atenção à Pessoa Idosa (2023)" href="https://edisciplinas.usp.br/course/view.php?id=115037"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH3024-203-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_30"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_30" title="ACH3538 - Trabalho de Conclusão de Curso (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114892"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH3538-202-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_31"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_31" title="ACH3537 - Projeto de Trabalho de Conclusão de Curso (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114891"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH3537-202-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_32"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_32" title="ACH3524 - Formação Econômica e Social do Brasil II (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114890"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH3524-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_33"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_33" title="ACH5036 - Assistência à Mulher no Pré-Natal e Pós-Parto (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114850"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH5036-202-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_34"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_34" title="ACH0162 - Arte, Literatura e Cultura (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114841"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH0162-214-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_35"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_35" title="ACH5032 - Tópicos em Análises Clínicas (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114805"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH5032-202-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_36"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_36" title="ACH0152 - Sociedade, Meio Ambiente e Cidadania - Sociedade, Ambiente e Cidadania (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114803"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH0152-234-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_37"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_37" title="ACH5063 - Nutrição (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114799"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH5063-202-2023</span></a></p></li><li class="type_course depth_6 item_with_icon current_branch" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_38"><p class="tree_item hasicon active_tree_node"><a tabindex="-1" id="random67ab4ac21617a20_label_6_38" title="ACH0636 - Realidade virtual, e-sports e inteligência artificial (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114779"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH0636-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_39"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_39" title="ACH0625 - Esportes de Aventura (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114778"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH0625-202-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_40"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_40" title="ACH3043 - O Cuidado Gerontológico (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114769"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH3043-203-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_41"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_41" title="ACH0102 - Psicologia, Educação e Temas Contemporâneos (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114762"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH0102-213-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_42"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_42" title="ACH0132 - Psicologia, Educação e Temas Contemporâneos - Uma Abordagem Crítica (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114761"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH0132-223-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_43"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_43" title="ACH4012 - Fundamentos da Didática (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114760"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH4012-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_44"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_44" title="ACH0042 - Resolução de Problemas II (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114675"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH0042-243-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_45"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_45" title="ACH0586 - Evolução do Método e Pesquisa Científica em Educação Física e Esporte (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114643"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH0586-203-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_46"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_46" title="ACH3534 - Direito Administrativo (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114586"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH3534-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_47"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_47" title="ACH0122 - Psicologia, Educação e Temas Contemporâneos  Processos Sociais de Formação dos Indivíduos (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114576"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH0122-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_48"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_48" title="ACH0584 - Prática Baseada em Evidência (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114562"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH0584-203-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_49"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_49" title="ACH0502 - Epidemiologia da Atividade Física (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114558"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH0502-203-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_50"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_50" title="ACH5044 - Anatomia, Fisiologia e Endocrinologia do Sistema Reprodutor (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114547"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH5044-202-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_51"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_51" title="ACH0505 - Fundamentos Biológicos da Atividade Física III (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114486"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH0505-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_52"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_52" title="ACH4618 - Planejamento de Experimentos (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114450"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH4618-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_53"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_53" title="Org. e Arq. de Computadores II (2023)-ACH2055" href="https://edisciplinas.usp.br/course/view.php?id=114435"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH2055-202-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_54"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_54" title="Sistemas Operacionais (2023)- ACH2044 " href="https://edisciplinas.usp.br/course/view.php?id=114431"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH2044-202-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_55"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_55" title="ACH1552 - Sociologia do Lazer e do Turismo (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114426"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH1552-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_56"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_56" title="ACH4106 - Biologia do Corpo Humano (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114423"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH4106-204-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_57"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_57" title="ACH5546 - Métodos Físicos para a Detecção da Biodiversidade (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114366"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">ACH5546-203-2023</span></a></p></li><li class="type_course depth_6 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a20_label_6_58"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a20_label_6_58" title="ACH4044 - História e Filosofia da Ciência (2023)" href="https://edisciplinas.usp.br/course/view.php?id=114340"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">HFC 2023</span></a></p></li></ul></li><li class="type_category depth_5 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8537" data-node-key="8537" data-node-type="10" aria-labelledby="random67ab4ac21617a18_label_5_59"><p class="tree_item branch" id="expandable_branch_10_8537"><a tabindex="-1" id="random67ab4ac21617a18_label_5_59" href="https://edisciplinas.usp.br/course/index.php?categoryid=8537">Cursos de Extensão</a></p></li><li class="type_category depth_5 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8529" data-node-key="8529" data-node-type="10" aria-labelledby="random67ab4ac21617a18_label_5_60"><p class="tree_item branch" id="expandable_branch_10_8529"><a tabindex="-1" id="random67ab4ac21617a18_label_5_60" href="https://edisciplinas.usp.br/course/index.php?categoryid=8529">EAH</a></p></li><li class="type_category depth_5 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8631" data-node-key="8631" data-node-type="10" aria-labelledby="random67ab4ac21617a18_label_5_61"><p class="tree_item branch" id="expandable_branch_10_8631"><a tabindex="-1" id="random67ab4ac21617a18_label_5_61" href="https://edisciplinas.usp.br/course/index.php?categoryid=8631">FBC</a></p></li><li class="type_category depth_5 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8423" data-node-key="8423" data-node-type="10" aria-labelledby="random67ab4ac21617a18_label_5_62"><p class="tree_item branch" id="expandable_branch_10_8423"><a tabindex="-1" id="random67ab4ac21617a18_label_5_62" href="https://edisciplinas.usp.br/course/index.php?categoryid=8423">SIN</a></p></li><li class="type_category depth_5 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8502" data-node-key="8502" data-node-type="10" aria-labelledby="random67ab4ac21617a18_label_5_63"><p class="tree_item branch" id="expandable_branch_10_8502"><a tabindex="-1" id="random67ab4ac21617a18_label_5_63" href="https://edisciplinas.usp.br/course/index.php?categoryid=8502">SUS</a></p></li><li class="type_category depth_5 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8610" data-node-key="8610" data-node-type="10" aria-labelledby="random67ab4ac21617a18_label_5_64"><p class="tree_item branch" id="expandable_branch_10_8610"><a tabindex="-1" id="random67ab4ac21617a18_label_5_64" href="https://edisciplinas.usp.br/course/index.php?categoryid=8610">TUR</a></p></li><li class="type_category depth_5 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8649" data-node-key="8649" data-node-type="10" aria-labelledby="random67ab4ac21617a18_label_5_65"><p class="tree_item branch" id="expandable_branch_10_8649"><a tabindex="-1" id="random67ab4ac21617a18_label_5_65" href="https://edisciplinas.usp.br/course/index.php?categoryid=8649">GER</a></p></li><li class="type_category depth_5 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8654" data-node-key="8654" data-node-type="10" aria-labelledby="random67ab4ac21617a18_label_5_66"><p class="tree_item branch" id="expandable_branch_10_8654"><a tabindex="-1" id="random67ab4ac21617a18_label_5_66" href="https://edisciplinas.usp.br/course/index.php?categoryid=8654">SCX</a></p></li><li class="type_category depth_5 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8660" data-node-key="8660" data-node-type="10" aria-labelledby="random67ab4ac21617a18_label_5_67"><p class="tree_item branch" id="expandable_branch_10_8660"><a tabindex="-1" id="random67ab4ac21617a18_label_5_67" href="https://edisciplinas.usp.br/course/index.php?categoryid=8660">MPP</a></p></li><li class="type_category depth_5 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8661" data-node-key="8661" data-node-type="10" aria-labelledby="random67ab4ac21617a18_label_5_68"><p class="tree_item branch" id="expandable_branch_10_8661"><a tabindex="-1" id="random67ab4ac21617a18_label_5_68" href="https://edisciplinas.usp.br/course/index.php?categoryid=8661">BBM</a></p></li><li class="type_category depth_5 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8690" data-node-key="8690" data-node-type="10" aria-labelledby="random67ab4ac21617a18_label_5_69"><p class="tree_item branch" id="expandable_branch_10_8690"><a tabindex="-1" id="random67ab4ac21617a18_label_5_69" href="https://edisciplinas.usp.br/course/index.php?categoryid=8690">CAF</a></p></li><li class="type_category depth_5 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8714" data-node-key="8714" data-node-type="10" aria-labelledby="random67ab4ac21617a18_label_5_70"><p class="tree_item branch" id="expandable_branch_10_8714"><a tabindex="-1" id="random67ab4ac21617a18_label_5_70" href="https://edisciplinas.usp.br/course/index.php?categoryid=8714">ESC</a></p></li><li class="type_category depth_5 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8736" data-node-key="8736" data-node-type="10" aria-labelledby="random67ab4ac21617a18_label_5_71"><p class="tree_item branch" id="expandable_branch_10_8736"><a tabindex="-1" id="random67ab4ac21617a18_label_5_71" href="https://edisciplinas.usp.br/course/index.php?categoryid=8736">GPP</a></p></li><li class="type_category depth_5 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8748" data-node-key="8748" data-node-type="10" aria-labelledby="random67ab4ac21617a18_label_5_72"><p class="tree_item branch" id="expandable_branch_10_8748"><a tabindex="-1" id="random67ab4ac21617a18_label_5_72" href="https://edisciplinas.usp.br/course/index.php?categoryid=8748">TXM</a></p></li><li class="type_course depth_5 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a18_label_5_73"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a18_label_5_73" title="Ambiente de teste de recursos" href="https://edisciplinas.usp.br/course/view.php?id=115126"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">Ambiente de teste - MD</span></a></p></li></ul></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8328" data-node-key="8328" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_74"><p class="tree_item branch" id="expandable_branch_10_8328"><a tabindex="-1" id="random67ab4ac21617a16_label_4_74" href="https://edisciplinas.usp.br/course/index.php?categoryid=8328">ECA    </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8307" data-node-key="8307" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_75"><p class="tree_item branch" id="expandable_branch_10_8307"><a tabindex="-1" id="random67ab4ac21617a16_label_4_75" href="https://edisciplinas.usp.br/course/index.php?categoryid=8307">EE     </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8285" data-node-key="8285" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_76"><p class="tree_item branch" id="expandable_branch_10_8285"><a tabindex="-1" id="random67ab4ac21617a16_label_4_76" href="https://edisciplinas.usp.br/course/index.php?categoryid=8285">EEL    </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8542" data-node-key="8542" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_77"><p class="tree_item branch" id="expandable_branch_10_8542"><a tabindex="-1" id="random67ab4ac21617a16_label_4_77" href="https://edisciplinas.usp.br/course/index.php?categoryid=8542">EEFE   </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8381" data-node-key="8381" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_78"><p class="tree_item branch" id="expandable_branch_10_8381"><a tabindex="-1" id="random67ab4ac21617a16_label_4_78" href="https://edisciplinas.usp.br/course/index.php?categoryid=8381">EEFERP </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8289" data-node-key="8289" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_79"><p class="tree_item branch" id="expandable_branch_10_8289"><a tabindex="-1" id="random67ab4ac21617a16_label_4_79" href="https://edisciplinas.usp.br/course/index.php?categoryid=8289">EESC   </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8355" data-node-key="8355" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_80"><p class="tree_item branch" id="expandable_branch_10_8355"><a tabindex="-1" id="random67ab4ac21617a16_label_4_80" href="https://edisciplinas.usp.br/course/index.php?categoryid=8355">EERP   </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8287" data-node-key="8287" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_81"><p class="tree_item branch" id="expandable_branch_10_8287"><a tabindex="-1" id="random67ab4ac21617a16_label_4_81" href="https://edisciplinas.usp.br/course/index.php?categoryid=8287">EP     </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8366" data-node-key="8366" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_82"><p class="tree_item branch" id="expandable_branch_10_8366"><a tabindex="-1" id="random67ab4ac21617a16_label_4_82" href="https://edisciplinas.usp.br/course/index.php?categoryid=8366">ESALQ  </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8305" data-node-key="8305" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_83"><p class="tree_item branch" id="expandable_branch_10_8305"><a tabindex="-1" id="random67ab4ac21617a16_label_4_83" href="https://edisciplinas.usp.br/course/index.php?categoryid=8305">FAU    </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8378" data-node-key="8378" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_84"><p class="tree_item branch" id="expandable_branch_10_8378"><a tabindex="-1" id="random67ab4ac21617a16_label_4_84" href="https://edisciplinas.usp.br/course/index.php?categoryid=8378">FCF    </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8383" data-node-key="8383" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_85"><p class="tree_item branch" id="expandable_branch_10_8383"><a tabindex="-1" id="random67ab4ac21617a16_label_4_85" href="https://edisciplinas.usp.br/course/index.php?categoryid=8383">FCFRP  </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8312" data-node-key="8312" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_86"><p class="tree_item branch" id="expandable_branch_10_8312"><a tabindex="-1" id="random67ab4ac21617a16_label_4_86" href="https://edisciplinas.usp.br/course/index.php?categoryid=8312">FD     </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8348" data-node-key="8348" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_87"><p class="tree_item branch" id="expandable_branch_10_8348"><a tabindex="-1" id="random67ab4ac21617a16_label_4_87" href="https://edisciplinas.usp.br/course/index.php?categoryid=8348">FDRP   </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8448" data-node-key="8448" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_88"><p class="tree_item branch" id="expandable_branch_10_8448"><a tabindex="-1" id="random67ab4ac21617a16_label_4_88" href="https://edisciplinas.usp.br/course/index.php?categoryid=8448">FE     </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8297" data-node-key="8297" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_89"><p class="tree_item branch" id="expandable_branch_10_8297"><a tabindex="-1" id="random67ab4ac21617a16_label_4_89" href="https://edisciplinas.usp.br/course/index.php?categoryid=8297">FEA    </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8369" data-node-key="8369" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_90"><p class="tree_item branch" id="expandable_branch_10_8369"><a tabindex="-1" id="random67ab4ac21617a16_label_4_90" href="https://edisciplinas.usp.br/course/index.php?categoryid=8369">FEARP  </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8292" data-node-key="8292" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_91"><p class="tree_item branch" id="expandable_branch_10_8292"><a tabindex="-1" id="random67ab4ac21617a16_label_4_91" href="https://edisciplinas.usp.br/course/index.php?categoryid=8292">FFCLRP </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8299" data-node-key="8299" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_92"><p class="tree_item branch" id="expandable_branch_10_8299"><a tabindex="-1" id="random67ab4ac21617a16_label_4_92" href="https://edisciplinas.usp.br/course/index.php?categoryid=8299">FFLCH  </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8505" data-node-key="8505" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_93"><p class="tree_item branch" id="expandable_branch_10_8505"><a tabindex="-1" id="random67ab4ac21617a16_label_4_93" href="https://edisciplinas.usp.br/course/index.php?categoryid=8505">FM     </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8301" data-node-key="8301" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_94"><p class="tree_item branch" id="expandable_branch_10_8301"><a tabindex="-1" id="random67ab4ac21617a16_label_4_94" href="https://edisciplinas.usp.br/course/index.php?categoryid=8301">FMRP   </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8357" data-node-key="8357" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_95"><p class="tree_item branch" id="expandable_branch_10_8357"><a tabindex="-1" id="random67ab4ac21617a16_label_4_95" href="https://edisciplinas.usp.br/course/index.php?categoryid=8357">FMVZ   </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8545" data-node-key="8545" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_96"><p class="tree_item branch" id="expandable_branch_10_8545"><a tabindex="-1" id="random67ab4ac21617a16_label_4_96" href="https://edisciplinas.usp.br/course/index.php?categoryid=8545">FO     </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8337" data-node-key="8337" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_97"><p class="tree_item branch" id="expandable_branch_10_8337"><a tabindex="-1" id="random67ab4ac21617a16_label_4_97" href="https://edisciplinas.usp.br/course/index.php?categoryid=8337">FOB    </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8294" data-node-key="8294" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_98"><p class="tree_item branch" id="expandable_branch_10_8294"><a tabindex="-1" id="random67ab4ac21617a16_label_4_98" href="https://edisciplinas.usp.br/course/index.php?categoryid=8294">FORP   </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8397" data-node-key="8397" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_99"><p class="tree_item branch" id="expandable_branch_10_8397"><a tabindex="-1" id="random67ab4ac21617a16_label_4_99" href="https://edisciplinas.usp.br/course/index.php?categoryid=8397">FSP    </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8334" data-node-key="8334" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_100"><p class="tree_item branch" id="expandable_branch_10_8334"><a tabindex="-1" id="random67ab4ac21617a16_label_4_100" href="https://edisciplinas.usp.br/course/index.php?categoryid=8334">FZEA   </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8399" data-node-key="8399" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_101"><p class="tree_item branch" id="expandable_branch_10_8399"><a tabindex="-1" id="random67ab4ac21617a16_label_4_101" href="https://edisciplinas.usp.br/course/index.php?categoryid=8399">HRAC</a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8392" data-node-key="8392" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_102"><p class="tree_item branch" id="expandable_branch_10_8392"><a tabindex="-1" id="random67ab4ac21617a16_label_4_102" href="https://edisciplinas.usp.br/course/index.php?categoryid=8392">IAG    </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8602" data-node-key="8602" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_103"><p class="tree_item branch" id="expandable_branch_10_8602"><a tabindex="-1" id="random67ab4ac21617a16_label_4_103" href="https://edisciplinas.usp.br/course/index.php?categoryid=8602">IAU    </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8248" data-node-key="8248" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_104"><p class="tree_item branch" id="expandable_branch_10_8248"><a tabindex="-1" id="random67ab4ac21617a16_label_4_104" href="https://edisciplinas.usp.br/course/index.php?categoryid=8248">IB     </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8387" data-node-key="8387" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_105"><p class="tree_item branch" id="expandable_branch_10_8387"><a tabindex="-1" id="random67ab4ac21617a16_label_4_105" href="https://edisciplinas.usp.br/course/index.php?categoryid=8387">ICB    </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8325" data-node-key="8325" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_106"><p class="tree_item branch" id="expandable_branch_10_8325"><a tabindex="-1" id="random67ab4ac21617a16_label_4_106" href="https://edisciplinas.usp.br/course/index.php?categoryid=8325">ICMC   </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8611" data-node-key="8611" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_107"><p class="tree_item branch" id="expandable_branch_10_8611"><a tabindex="-1" id="random67ab4ac21617a16_label_4_107" href="https://edisciplinas.usp.br/course/index.php?categoryid=8611">IEB    </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8461" data-node-key="8461" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_108"><p class="tree_item branch" id="expandable_branch_10_8461"><a tabindex="-1" id="random67ab4ac21617a16_label_4_108" href="https://edisciplinas.usp.br/course/index.php?categoryid=8461">IEE    </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8353" data-node-key="8353" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_109"><p class="tree_item branch" id="expandable_branch_10_8353"><a tabindex="-1" id="random67ab4ac21617a16_label_4_109" href="https://edisciplinas.usp.br/course/index.php?categoryid=8353">IF     </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8582" data-node-key="8582" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_110"><p class="tree_item branch" id="expandable_branch_10_8582"><a tabindex="-1" id="random67ab4ac21617a16_label_4_110" href="https://edisciplinas.usp.br/course/index.php?categoryid=8582">IFQSC  </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8332" data-node-key="8332" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_111"><p class="tree_item branch" id="expandable_branch_10_8332"><a tabindex="-1" id="random67ab4ac21617a16_label_4_111" href="https://edisciplinas.usp.br/course/index.php?categoryid=8332">IFSC   </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8416" data-node-key="8416" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_112"><p class="tree_item branch" id="expandable_branch_10_8416"><a tabindex="-1" id="random67ab4ac21617a16_label_4_112" href="https://edisciplinas.usp.br/course/index.php?categoryid=8416">IGc    </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8321" data-node-key="8321" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_113"><p class="tree_item branch" id="expandable_branch_10_8321"><a tabindex="-1" id="random67ab4ac21617a16_label_4_113" href="https://edisciplinas.usp.br/course/index.php?categoryid=8321">IME    </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8737" data-node-key="8737" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_114"><p class="tree_item branch" id="expandable_branch_10_8737"><a tabindex="-1" id="random67ab4ac21617a16_label_4_114" href="https://edisciplinas.usp.br/course/index.php?categoryid=8737">IMT    </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8309" data-node-key="8309" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_115"><p class="tree_item branch" id="expandable_branch_10_8309"><a tabindex="-1" id="random67ab4ac21617a16_label_4_115" href="https://edisciplinas.usp.br/course/index.php?categoryid=8309">IO     </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8351" data-node-key="8351" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_116"><p class="tree_item branch" id="expandable_branch_10_8351"><a tabindex="-1" id="random67ab4ac21617a16_label_4_116" href="https://edisciplinas.usp.br/course/index.php?categoryid=8351">IP     </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8559" data-node-key="8559" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_117"><p class="tree_item branch" id="expandable_branch_10_8559"><a tabindex="-1" id="random67ab4ac21617a16_label_4_117" href="https://edisciplinas.usp.br/course/index.php?categoryid=8559">IPEN   </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8314" data-node-key="8314" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_118"><p class="tree_item branch" id="expandable_branch_10_8314"><a tabindex="-1" id="random67ab4ac21617a16_label_4_118" href="https://edisciplinas.usp.br/course/index.php?categoryid=8314">IQ     </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8589" data-node-key="8589" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_119"><p class="tree_item branch" id="expandable_branch_10_8589"><a tabindex="-1" id="random67ab4ac21617a16_label_4_119" href="https://edisciplinas.usp.br/course/index.php?categoryid=8589">IQSC   </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8317" data-node-key="8317" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_120"><p class="tree_item branch" id="expandable_branch_10_8317"><a tabindex="-1" id="random67ab4ac21617a16_label_4_120" href="https://edisciplinas.usp.br/course/index.php?categoryid=8317">IRI    </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8615" data-node-key="8615" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_121"><p class="tree_item branch" id="expandable_branch_10_8615"><a tabindex="-1" id="random67ab4ac21617a16_label_4_121" href="https://edisciplinas.usp.br/course/index.php?categoryid=8615">MAC    </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8518" data-node-key="8518" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_122"><p class="tree_item branch" id="expandable_branch_10_8518"><a tabindex="-1" id="random67ab4ac21617a16_label_4_122" href="https://edisciplinas.usp.br/course/index.php?categoryid=8518">MAE    </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8695" data-node-key="8695" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_123"><p class="tree_item branch" id="expandable_branch_10_8695"><a tabindex="-1" id="random67ab4ac21617a16_label_4_123" href="https://edisciplinas.usp.br/course/index.php?categoryid=8695">MP     </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8414" data-node-key="8414" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_124"><p class="tree_item branch" id="expandable_branch_10_8414"><a tabindex="-1" id="random67ab4ac21617a16_label_4_124" href="https://edisciplinas.usp.br/course/index.php?categoryid=8414">MZ     </a></p></li><li class="type_category depth_4 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8394" data-node-key="8394" data-node-type="10" aria-labelledby="random67ab4ac21617a16_label_4_125"><p class="tree_item branch" id="expandable_branch_10_8394"><a tabindex="-1" id="random67ab4ac21617a16_label_4_125" href="https://edisciplinas.usp.br/course/index.php?categoryid=8394">RUSP   </a></p></li><li class="type_course depth_4 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a16_label_4_126"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a16_label_4_126" title="Arquivos e vídeos e-disciplinas" href="https://edisciplinas.usp.br/course/view.php?id=115363"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">Recursos e-disciplinas</span></a></p></li><li class="type_course depth_4 item_with_icon" role="treeitem" aria-labelledby="random67ab4ac21617a16_label_4_127"><p class="tree_item hasicon"><a tabindex="-1" id="random67ab4ac21617a16_label_4_127" title="FLL0433 - Elementos de Linguística I - Prof. Finbow (2023)" href="https://edisciplinas.usp.br/course/view.php?id=110119"><i class="icon fa fa-graduation-cap fa-fw navicon" aria-hidden="true"  ></i><span class="item-content-wrap">FLL0433-134</span></a></p></li></ul></li><li class="type_category depth_3 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_9310" data-node-key="9310" data-node-type="10" aria-labelledby="random67ab4ac21617a14_label_3_128"><p class="tree_item branch" id="expandable_branch_10_9310"><a tabindex="-1" id="random67ab4ac21617a14_label_3_128" href="https://edisciplinas.usp.br/course/index.php?categoryid=9310">2025</a></p></li><li class="type_category depth_3 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_8757" data-node-key="8757" data-node-type="10" aria-labelledby="random67ab4ac21617a14_label_3_129"><p class="tree_item branch" id="expandable_branch_10_8757"><a tabindex="-1" id="random67ab4ac21617a14_label_3_129" href="https://edisciplinas.usp.br/course/index.php?categoryid=8757">2024</a></p></li><li class="type_category depth_3 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_7889" data-node-key="7889" data-node-type="10" aria-labelledby="random67ab4ac21617a14_label_3_130"><p class="tree_item branch" id="expandable_branch_10_7889"><a tabindex="-1" id="random67ab4ac21617a14_label_3_130" href="https://edisciplinas.usp.br/course/index.php?categoryid=7889">2022</a></p></li><li class="type_category depth_3 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_7346" data-node-key="7346" data-node-type="10" aria-labelledby="random67ab4ac21617a14_label_3_131"><p class="tree_item branch" id="expandable_branch_10_7346"><a tabindex="-1" id="random67ab4ac21617a14_label_3_131" href="https://edisciplinas.usp.br/course/index.php?categoryid=7346">2021</a></p></li><li class="type_category depth_3 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_6851" data-node-key="6851" data-node-type="10" aria-labelledby="random67ab4ac21617a14_label_3_132"><p class="tree_item branch" id="expandable_branch_10_6851"><a tabindex="-1" id="random67ab4ac21617a14_label_3_132" href="https://edisciplinas.usp.br/course/index.php?categoryid=6851">2020</a></p></li><li class="type_category depth_3 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_6449" data-node-key="6449" data-node-type="10" aria-labelledby="random67ab4ac21617a14_label_3_133"><p class="tree_item branch" id="expandable_branch_10_6449"><a tabindex="-1" id="random67ab4ac21617a14_label_3_133" href="https://edisciplinas.usp.br/course/index.php?categoryid=6449">2019</a></p></li><li class="type_category depth_3 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_6025" data-node-key="6025" data-node-type="10" aria-labelledby="random67ab4ac21617a14_label_3_134"><p class="tree_item branch" id="expandable_branch_10_6025"><a tabindex="-1" id="random67ab4ac21617a14_label_3_134" href="https://edisciplinas.usp.br/course/index.php?categoryid=6025">2018</a></p></li><li class="type_category depth_3 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_6066" data-node-key="6066" data-node-type="10" aria-labelledby="random67ab4ac21617a14_label_3_135"><p class="tree_item branch" id="expandable_branch_10_6066"><a tabindex="-1" id="random67ab4ac21617a14_label_3_135" href="https://edisciplinas.usp.br/course/index.php?categoryid=6066">2017</a></p></li><li class="type_category depth_3 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_3139" data-node-key="3139" data-node-type="10" aria-labelledby="random67ab4ac21617a14_label_3_136"><p class="tree_item branch" id="expandable_branch_10_3139"><a tabindex="-1" id="random67ab4ac21617a14_label_3_136" href="https://edisciplinas.usp.br/course/index.php?categoryid=3139">2016</a></p></li><li class="type_category depth_3 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_1433" data-node-key="1433" data-node-type="10" aria-labelledby="random67ab4ac21617a14_label_3_137"><p class="tree_item branch" id="expandable_branch_10_1433"><a tabindex="-1" id="random67ab4ac21617a14_label_3_137" href="https://edisciplinas.usp.br/course/index.php?categoryid=1433">2015</a></p></li><li class="type_category depth_3 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_960" data-node-key="960" data-node-type="10" aria-labelledby="random67ab4ac21617a14_label_3_138"><p class="tree_item branch" id="expandable_branch_10_960"><a tabindex="-1" id="random67ab4ac21617a14_label_3_138" href="https://edisciplinas.usp.br/course/index.php?categoryid=960">2014</a></p></li><li class="type_category depth_3 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_559" data-node-key="559" data-node-type="10" aria-labelledby="random67ab4ac21617a14_label_3_139"><p class="tree_item branch" id="expandable_branch_10_559"><a tabindex="-1" id="random67ab4ac21617a14_label_3_139" href="https://edisciplinas.usp.br/course/index.php?categoryid=559">2013</a></p></li><li class="type_category depth_3 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_230" data-node-key="230" data-node-type="10" aria-labelledby="random67ab4ac21617a14_label_3_140"><p class="tree_item branch" id="expandable_branch_10_230"><a tabindex="-1" id="random67ab4ac21617a14_label_3_140" href="https://edisciplinas.usp.br/course/index.php?categoryid=230">2012</a></p></li><li class="type_category depth_3 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_1" data-node-key="1" data-node-type="10" aria-labelledby="random67ab4ac21617a14_label_3_141"><p class="tree_item branch" id="expandable_branch_10_1"><a tabindex="-1" id="random67ab4ac21617a14_label_3_141" href="https://edisciplinas.usp.br/course/index.php?categoryid=1">Grupos de Estudos, Pesquisa e Outros</a></p></li><li class="type_category depth_3 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_2520" data-node-key="2520" data-node-type="10" aria-labelledby="random67ab4ac21617a14_label_3_142"><p class="tree_item branch" id="expandable_branch_10_2520"><a tabindex="-1" id="random67ab4ac21617a14_label_3_142" href="https://edisciplinas.usp.br/course/index.php?categoryid=2520">PRPG - Pró-Reitoria de Pós-Graduação</a></p></li><li class="type_category depth_3 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_2969" data-node-key="2969" data-node-type="10" aria-labelledby="random67ab4ac21617a14_label_3_143"><p class="tree_item branch" id="expandable_branch_10_2969"><a tabindex="-1" id="random67ab4ac21617a14_label_3_143" href="https://edisciplinas.usp.br/course/index.php?categoryid=2969">STI</a></p></li><li class="type_category depth_3 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_7838" data-node-key="7838" data-node-type="10" aria-labelledby="random67ab4ac21617a14_label_3_144"><p class="tree_item branch" id="expandable_branch_10_7838"><a tabindex="-1" id="random67ab4ac21617a14_label_3_144" href="https://edisciplinas.usp.br/course/index.php?categoryid=7838">RUSP</a></p></li><li class="type_category depth_3 contains_branch" role="treeitem" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_9333" data-node-key="9333" data-node-type="10" aria-labelledby="random67ab4ac21617a14_label_3_145"><p class="tree_item branch" id="expandable_branch_10_9333"><a tabindex="-1" id="random67ab4ac21617a14_label_3_145" href="https://edisciplinas.usp.br/course/index.php?categoryid=9333">EERP</a></p></li></ul></li></ul></li></ul>
+                            <div class="footer"></div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <span id="sb-2"></span></aside>
+                    </section>
+                </div>
+            </div>
+
+            <div class="columnright blockcolumn ">
+                <section data-region="blocks-column" class="hidden-print" aria-label="Blocos">
+                    <aside id="block-region-side-post" class="block-region" data-blockregion="side-post" data-droptarget="1"></aside>
+                </section>
+            </div>
+        </div>
+    </div>
+    
+    
+    <footer id="page-footer" class="footer-popover bg-white">
+        <div data-region="footer-container-popover">
+            <button class="btn btn-icon bg-secondary icon-no-margin btn-footer-popover" data-action="footer-popover" aria-label="Mostrar rodapé">
+                <i class="icon fa fa-question fa-fw " aria-hidden="true"  ></i>
+            </button>
+        </div>
+        <div class="footer-content-popover container" data-region="footer-content-popover">
+            <div class="footer-section p-3 border-bottom">
+                <div class="logininfo">
+                    <div class="logininfo">Você acessou como visitante (<a href="https://edisciplinas.usp.br/login/index.php">Acessar</a>)</div>
+                </div>
+                <div class="tool_usertours-resettourcontainer">
+                </div>
+    
+                
+                <script>
+//<![CDATA[
+var require = {
+    baseUrl : 'https://edisciplinas.usp.br/lib/requirejs.php/1739264033/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://edisciplinas.usp.br/lib/javascript.php/1739264033/lib/jquery/jquery-3.6.1.min',
+        jqueryui: 'https://edisciplinas.usp.br/lib/javascript.php/1739264033/lib/jquery/ui-1.13.2/jquery-ui.min',
+        jqueryprivate: 'https://edisciplinas.usp.br/lib/javascript.php/1739264033/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script src="https://edisciplinas.usp.br/lib/javascript.php/1739264033/lib/requirejs/require.min.js"></script>
+<script>
+//<![CDATA[
+M.util.js_pending("core/first");
+require(['core/first'], function() {
+require(['core/prefetch'])
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp('pt-BR');
+});;
+M.util.js_pending('block_settings/settingsblock'); require(['block_settings/settingsblock'], function(amd) {amd.init("5", null); M.util.js_complete('block_settings/settingsblock');});;
+M.util.js_pending('block_navigation/navblock'); require(['block_navigation/navblock'], function(amd) {amd.init("4"); M.util.js_complete('block_navigation/navblock');});;
+
+require(['jquery', 'core/custom_interaction_events'], function($, CustomEvents) {
+    CustomEvents.define('#single_select67ab4ac21617a67', [CustomEvents.events.accessibleChange]);
+    $('#single_select67ab4ac21617a67').on(CustomEvents.events.accessibleChange, function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f67ab4ac21617a66').submit();
+        }
+    });
+});
+;
+
+require(
+[
+    'jquery',
+],
+function(
+    $
+) {
+    var uniqid = "67ab4ac21cf4067ab4ac21617a71";
+    var container = $('#searchinput-navbar-' + uniqid);
+    var opensearch = container.find('[data-action="opensearch"]');
+    var input = container.find('[data-region="input"]');
+    var submit = container.find('[data-action="submit"]');
+
+    submit.on('click', function(e) {
+        if (input.val() === '') {
+            e.preventDefault();
+        }
+    });
+    container.on('hidden.bs.collapse', function() {
+        opensearch.removeClass('d-none');
+        input.val('');
+    });
+    container.on('show.bs.collapse', function() {
+        opensearch.addClass('d-none');
+    });
+    container.on('shown.bs.collapse', function() {
+        input.focus();
+    });
+});
+;
+
+require(['theme_boost/footer-popover'], function(FooterPopover) {
+    FooterPopover.init();
+});
+;
+
+    M.util.js_pending('theme_boost/loader');
+    require(['theme_boost/loader'], function() {
+    M.util.js_complete('theme_boost/loader');
+    });
+    M.util.js_pending('theme_boost/drawer');
+    require(['theme_boost/drawer'], function(mod) {
+    mod.init();
+    M.util.js_complete('theme_boost/drawer');
+    });
+;
+
+require(["jquery"], function($) {
+   $(document).ready(function(){
+        $("#page-site-index #unidades .resp-tab-item>a").on("click", function() {  $("#page-site-index #unidades .resp-tab-item.active").removeClass("active"); $(this).parent().addClass("active"); });
+        
+        // OFF - DEFAULT CENTER MOODLEMY BLOCKS
+        //$("#page-my-index #block-region-content .block .collapse").addClass("show");
+        $("#page-my-index #block-region-content .block .collapse").show();
+        
+        // SHOW ADD BLOCK DEFAULT
+        $(".block_adminblock .collapse").show();
+        $(".block_adminblock .collapse").on("click", function() {
+            $(this).show();
+        });
+        
+        // SHOW QUIZ-NAVIGATION DEFAULT
+        $("#mod_quiz_navblock .collapse").show();
+        $(".block_book_toc .collapse").show();
+        
+        //MOVE BLOCK_ADVANCED_NOTIFICATION TO PAGEHEADER
+        $(".block_advnotifications").appendTo("#page-header");
+        $(".block_advnotifications .collapse").show();
+        
+        //HIDDEN NAVDRAWER MOBILE WHEN OPEN
+        //bsContainerWidth = $("html").width();
+        //if (bsContainerWidth <= 768 && $("body.drawer-open-left").length == 1) {
+        //    //$("#nav-drawer").toggle();
+        //}
+        
+        // OPEN BLOCKS
+        var blocks = [];
+        $.each(blocks, function(index, obj) {
+           $(".block_"+obj.name+" .collapse").addClass("show"); 
+        });
+        
+        // SAVE BLOCKS
+        $(".block:has(.collapse)").on("shown.bs.collapse", function () {
+            var block = $(this).attr("data-block");
+            element = {name: block};
+            save_openblocks("add", element);            
+        });
+        $(".block:has(.collapse)").on("hidden.bs.collapse", function () {
+            var block = $(this).attr("data-block");
+            element = {name: block};
+            save_openblocks("remove", element);   
+        });
+        function save_openblocks(action, element) {
+            //Search in Array by BlockName
+            var index = blocks.findIndex(x => x.name === element.name);
+            if (index === -1) {
+                blocks.push(element);
+            } else if (action == "remove") { 
+                blocks.splice(index, 1);
+            } else {
+                blocks[index] = element;
+            }
+            M.util.set_user_preference("openblocks",JSON.stringify(blocks));
+        }
+    });
+});;
+M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(7969686, []); M.util.js_complete('core/notification');});;
+M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
+M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});;
+M.util.js_pending('core/utility'); require(['core/utility'], function(amd) {M.util.js_complete('core/utility');});;
+M.util.js_pending('core/storage_validation'); require(['core/storage_validation'], function(amd) {amd.init(1352807260); M.util.js_complete('core/storage_validation');});
+    M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script>
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"\u00daltima atualiza\u00e7\u00e3o","name":"Nome","error":"Erro","info":"Informa\u00e7\u00e3o","yes":"Sim","no":"N\u00e3o","ok":"OK","viewallcourses":"Ver todos os cursos","cancel":"Cancelar","confirm":"Confirmar","areyousure":"Voc\u00ea tem certeza?","closebuttontitle":"Fechar","unknownerror":"Erro desconhecido","file":"Arquivo","url":"URL \/ Link","collapseall":"Contrair tudo","expandall":"Expandir tudo"},"repository":{"type":"Tipo","size":"Tamanho","invalidjson":"palavra JSON inv\u00e1lida","nofilesattached":"Nenhum arquivo anexado","filepicker":"Seletor de arquivos","logout":"Sair","nofilesavailable":"Nenhum arquivo dispon\u00edvel","norepositoriesavailable":"Desculpe, nenhum dos seus reposit\u00f3rios atuais pode retornar arquivos no formato solicitado.","fileexistsdialogheader":"Arquivo existe","fileexistsdialog_editor":"Um arquivo com este nome j\u00e1 foi anexado ao texto que voc\u00ea est\u00e1 editando.","fileexistsdialog_filemanager":"Um arquivo com este nome j\u00e1 foi anexado","renameto":"Renomear para \"{$a}\"","referencesexist":"Existem {$a} links para esse arquivo","select":"Selecione"},"admin":{"confirmdeletecomments":"Voc\u00ea est\u00e1 prestes a excluir coment\u00e1rios, tem certeza?","confirmation":"Confirma\u00e7\u00e3o"},"debug":{"debuginfo":"Informa\u00e7\u00f5es de depura\u00e7\u00e3o","line":"Linha","stacktrace":"Rastreamento de pilha"},"langconfig":{"labelsep":":&nbsp;"}};
+//]]>
+</script>
+<script>
+//<![CDATA[
+(function() {Y.use("moodle-filter_glossary-autolinker",function() {M.filter_glossary.init_filter_autolinking({"courseid":0});
+});
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"MathJax.Hub.Config({\r\n    config: [\"Accessible.js\", \"Safe.js\"],\r\n    errorSettings: { message: [\"!\"] },\r\n    skipStartupTypeset: true,\r\n    messageStyle: \"none\",\r\n    tex2jax: { inlineMath: [['$','$'],['$$','$$'], ['\\\\(','\\\\)'],['@i','@i']], displayMath: [['@d','@d'],['\\\\[','\\\\]']] },\r\n    TeX: { extensions: [\"AMSmath.js\",\"AMSsymbols.js\",\"mhchem.js\",\"noErrors.js\",\"noUndefined.js\"] }\r\n});\r\n","lang":"pt-br"});
+});
+M.util.help_popups.setup(Y);
+ M.util.js_pending('random67ab4ac21617a73'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random67ab4ac21617a73'); });
+})();
+//]]>
+</script>
+
+            </div>
+            <div class="footer-section p-3">
+                <div>Fornecido por <a href="https://moodle.com">Moodle</a></div>
+            </div>
+        </div>
+    
+        <div class="footer-content-debugging footer-dark bg-dark text-light">
+            <div class="container-fluid footer-dark-inner">
+                
+            </div>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,151 @@
+========================================================================= 
+Log Path: ./log/compliance.log 
+Program Path: /home/kirvanlewis/projects/cfpb/download-pdfs.r 
+Working Directory: /home/kirvanlewis/projects/cfpb 
+User Name: kirvanlewis 
+R Version: 4.4.1 (2024-06-14) 
+Machine: penguin x86_64 
+Operating System: Linux 6.6.54-05528-gdd4efe62d86b #1 SMP PREEMPT_DYNAMIC Thu, 7 Nov 2024 16:44:28 +0000 
+Base Packages: stats graphics grDevices utils datasets methods base 
+NULL
+Log Start Time: 2025-02-09 22:12:09.820784 
+========================================================================= 
+
+success: /compliance/supervision-examinations 
+
+NOTE: Log Print Time:  2025-02-09 22:12:10.25594 
+NOTE: Elapsed Time: 0.434839725494385 secs 
+
+success: /compliance/supervisory-highlights 
+
+NOTE: Log Print Time:  2025-02-09 22:12:10.513036 
+NOTE: Elapsed Time: 0.257095098495483 secs 
+
+success: /compliance/compliance-resources/mortgage-resources/ 
+
+NOTE: Log Print Time:  2025-02-09 22:12:10.846804 
+NOTE: Elapsed Time: 0.333768844604492 secs 
+
+success: https://files.consumerfinance.gov/f/documents/11.5_Mortgage_Servicing_Exam_Procedures_June_2016.pdf 
+
+NOTE: Log Print Time:  2025-02-09 22:12:11.761365 
+NOTE: Elapsed Time: 0.914560317993164 secs 
+
+success: /compliance/compliance-resources/consumer-cards-resources/ 
+
+NOTE: Log Print Time:  2025-02-09 22:12:11.881523 
+NOTE: Elapsed Time: 0.120157957077026 secs 
+
+success: /compliance/compliance-resources/consumer-lending-resources/ 
+
+NOTE: Log Print Time:  2025-02-09 22:12:12.106958 
+NOTE: Elapsed Time: 0.225435256958008 secs 
+
+success: https://files.consumerfinance.gov/f/documents/201706_cfpb_Education-Loan-Servicing-Exam-Manual.pdf 
+
+NOTE: Log Print Time:  2025-02-09 22:12:13.593119 
+NOTE: Elapsed Time: 1.48616147041321 secs 
+
+success: https://files.consumerfinance.gov/f/documents/cfpb_payday_manual_revisions.pdf 
+
+NOTE: Log Print Time:  2025-02-09 22:12:14.410182 
+NOTE: Elapsed Time: 0.817062139511108 secs 
+
+success: https://www.consumerfinance.gov/enforcement/actions/?title=&topics=payday-loans&topics=student-loans&topics=auto-loans&from_date=&to_date= 
+
+NOTE: Log Print Time:  2025-02-09 22:12:16.611455 
+NOTE: Elapsed Time: 2.20127391815186 secs 
+
+success: /compliance/compliance-resources/deposit-accounts-resources/ 
+
+NOTE: Log Print Time:  2025-02-09 22:12:16.75121 
+NOTE: Elapsed Time: 0.139754772186279 secs 
+
+success: /compliance/compliance-resources/other-applicable-requirements/ 
+
+NOTE: Log Print Time:  2025-02-09 22:12:16.967057 
+NOTE: Elapsed Time: 0.215847015380859 secs 
+
+success: /compliance/compliance-resources/compendium-of-recent-cfpb-guidance/ 
+
+NOTE: Log Print Time:  2025-02-09 22:12:17.421962 
+NOTE: Elapsed Time: 0.454904317855835 secs 
+
+success: https://files.consumerfinance.gov/f/documents/cfpb_guidance-compendium_2025-01.pdf 
+
+NOTE: Log Print Time:  2025-02-09 22:12:18.73402 
+NOTE: Elapsed Time: 1.31205868721008 secs 
+
+fail: https://surveys.consumerfinance.gov/jfe/form/SV_2htcuIljQqrXlXf 
+
+NOTE: Log Print Time:  2025-02-09 22:12:18.748108 
+NOTE: Elapsed Time: 0.0140876770019531 secs 
+
+success: /rules-policy/final-rules/code-federal-regulations/ 
+
+NOTE: Log Print Time:  2025-02-09 22:12:18.918453 
+NOTE: Elapsed Time: 0.170344829559326 secs 
+
+success: /compliance/compliance-resources/signup/ 
+
+NOTE: Log Print Time:  2025-02-09 22:12:19.154209 
+NOTE: Elapsed Time: 0.235755920410156 secs 
+
+fail: https://reginquiries.consumerfinance.gov 
+
+NOTE: Log Print Time:  2025-02-09 22:12:19.262764 
+NOTE: Elapsed Time: 0.10855507850647 secs 
+
+Error in UseMethod("write_html") : no applicable method for 'write_html' applied to an object of class "character" 
+Traceback: 
+ [1] "21: xml2::write_html(x = page, file = paste0(path, \"/\", link_to_name(href_q), "
+ [2] "        \".html\")) at #11"                                                      
+ [3] "20: advance_page(href_q = href_q, dead_q = dead_q, base_url = base_url, "        
+ [4] "        file_url = file_url) at #37"                                             
+ [5] "19: advance_page(href_q = href_q, dead_q = dead_q, base_url = base_url, "        
+ [6] "        file_url = file_url) at #54"                                             
+ [7] "18: advance_page(href_q = href_q, dead_q = dead_q, base_url = base_url, "        
+ [8] "        file_url = file_url) at #54"                                             
+ [9] "17: advance_page(href_q = href_q, dead_q = dead_q, base_url = base_url, "        
+[10] "        file_url = file_url) at #37"                                             
+[11] "16: advance_page(href_q = href_q, dead_q = dead_q, base_url = base_url, "        
+[12] "        file_url = file_url) at #54"                                             
+[13] "15: advance_page(href_q = href_q, dead_q = dead_q, base_url = base_url, "        
+[14] "        file_url = file_url) at #54"                                             
+[15] "14: advance_page(href_q = href_q, dead_q = dead_q, base_url = base_url, "        
+[16] "        file_url = file_url) at #54"                                             
+[17] "13: advance_page(href_q = href_q, dead_q = dead_q, base_url = base_url, "        
+[18] "        file_url = file_url) at #54"                                             
+[19] "12: advance_page(href_q = href_q, dead_q = dead_q, base_url = base_url, "        
+[20] "        file_url = file_url) at #54"                                             
+[21] "11: advance_page(href_q = href_q, dead_q = dead_q, base_url = base_url, "        
+[22] "        file_url = file_url) at #54"                                             
+[23] "10: advance_page(href_q = href_q, dead_q = dead_q, base_url = base_url, "        
+[24] "        file_url = file_url) at #54"                                             
+[25] "9: advance_page(href_q = href_q, dead_q = dead_q, base_url = base_url, "         
+[26] "       file_url = file_url) at #54"                                              
+[27] "8: advance_page(href_q = href_q, dead_q = dead_q, base_url = base_url, "         
+[28] "       file_url = file_url) at #54"                                              
+[29] "7: advance_page(href_q = href_q, dead_q = dead_q, base_url = base_url, "         
+[30] "       file_url = file_url) at #54"                                              
+[31] "6: advance_page(href_q = href_q, dead_q = dead_q, base_url = base_url, "         
+[32] "       file_url = file_url) at #54"                                              
+[33] "5: advance_page(href_q = href_q, dead_q = dead_q, base_url = base_url, "         
+[34] "       file_url = file_url) at #54"                                              
+[35] "4: advance_page(href_q = href_q, dead_q = dead_q, base_url = base_url, "         
+[36] "       file_url = file_url) at #54"                                              
+[37] "3: advance_page(start_href, base_url = base_url, dead_q = href_q(restart), "     
+[38] "       file_url = file_url) at #60"                                              
+[39] "2: main(starter_page, base_url = base_url, file_url = file_url, "                
+[40] "       restart = old_log) at #3"                                                 
+[41] "1: restart(starter_page = \"https://www.consumerfinance.gov/compliance/\", "     
+[42] "       base_url = base_url, new_log = \"compliance\", old_log = logs, "          
+[43] "       file_url = file_url)"                                                     
+
+NOTE: Log Print Time:  2025-02-09 22:12:19.266467 
+NOTE: Elapsed Time: 0.00370311737060547 secs 
+
+========================================================================= 
+Log End Time: 2025-02-09 22:12:19.267393 
+Log Elapsed Time: 0 00:00:09 
+========================================================================= 
